@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Rules for auto-backups.
+    See https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <!-- 排除数据库文件（因为包含加密数据） -->
+    <exclude domain="database" path="password_vault.db" />
+    <exclude domain="database" path="password_vault.db-shm" />
+    <exclude domain="database" path="password_vault.db-wal" />
+    
+    <!-- 排除共享偏好设置中的敏感数据 -->
+    <exclude domain="sharedpref" path="encryption_keys.xml" />
+    
+    <!-- 包含其他非敏感数据 -->
+    <include domain="sharedpref" path="app_preferences.xml" />
+    <include domain="file" path="app_icons/" />
+    <include domain="external" path="backups/" />
+</full-backup-content>

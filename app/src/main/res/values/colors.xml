@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 暗黑科技风配色方案 -->
+    
+    <!-- 基础色 -->
+    <color name="background_dark">#FF0A0A0F</color>      <!-- 深空黑 -->
+    <color name="surface_dark">#FF121218</color>         <!-- 表面深灰 -->
+    <color name="surface_medium">#FF1A1A24</color>       <!-- 中等表面 -->
+    <color name="surface_light">#FF242430</color>        <!-- 浅色表面 -->
+    
+    <!-- 科技色 -->
+    <color name="tech_blue">#FF00D4FF</color>           <!-- 科技蓝（主色） -->
+    <color name="tech_cyan">#FF00FFE0</color>           <!-- 青蓝 -->
+    <color name="tech_purple">#FF9D4EDD</color>         <!-- 科技紫 -->
+    <color name="tech_green">#FF00FF88</color>          <!-- 科技绿 -->
+    <color name="tech_pink">#FFFF2D95</color>           <!-- 科技粉 -->
+    
+    <!-- 渐变科技色 -->
+    <color name="gradient_blue_start">#FF0066FF</color>
+    <color name="gradient_blue_end">#FF00D4FF</color>
+    <color name="gradient_purple_start">#FF9D4EDD</color>
+    <color name="gradient_purple_end">#FFFF2D95</color>
+    <color name="gradient_green_start">#FF00FF88</color>
+    <color name="gradient_green_end">#FF00FFE0</color>
+    
+    <!-- 功能色 -->
+    <color name="success">#FF00FF88</color>            <!-- 成功（科技绿） -->
+    <color name="warning">#FFFFAA00</color>            <!-- 警告 -->
+    <color name="error">#FFFF3D71</color>              <!-- 错误 -->
+    <color name="info">#FF00D4FF</color>               <!-- 信息（科技蓝） -->
+    
+    <!-- 文字色 -->
+    <color name="text_primary">#FFFFFFFF</color>        <!-- 主要文字 -->
+    <color name="text_secondary">#FFB0B0C0</color>      <!-- 次要文字 -->
+    <color name="text_disabled">#FF606070</color>       <!-- 禁用文字 -->
+    <color name="text_hint">#FF808090</color>          <!-- 提示文字 -->
+    
+    <!-- 边框和分隔线 -->
+    <color name="border_light">#FF303040</color>        <!-- 浅色边框 -->
+    <color name="border_medium">#FF404050</color>       <!-- 中等边框 -->
+    <color name="border_dark">#FF505060</color>         <!-- 深色边框 -->
+    <color name="divider">#FF303040</color>            <!-- 分隔线 -->
+    
+    <!-- 阴影和覆盖 -->
+    <color name="shadow_dark">#80000000</color>         <!-- 深色阴影 -->
+    <color name="overlay_dark">#CC000000</color>        <!-- 深色覆盖 -->
+    <color name="overlay_light">#33FFFFFF</color>       <!-- 浅色覆盖 -->
+    
+    <!-- 分类颜色 -->
+    <color name="category_social">#FF00D4FF</color>     <!-- 社交 - 科技蓝 -->
+    <color name="category_finance">#FF00FF88</color>    <!-- 金融 - 科技绿 -->
+    <color name="category_work">#FF9D4EDD</color>      <!-- 工作 - 科技紫 -->
+    <color name="category_entertainment">#FFFF2D95</color> <!-- 娱乐 - 科技粉 -->
+    <color name="category_shopping">#FFFFAA00</color>   <!-- 购物 - 警告色 -->
+    <color name="category_education">#FF00FFE0</color>  <!-- 教育 - 青蓝 -->
+    <color name="category_other">#FFB0B0C0</color>     <!-- 其他 - 次要文字色 -->
+    
+    <!-- 密码强度颜色 -->
+    <color name="strength_very_weak">#FFFF3D71</color>  <!-- 非常弱 - 红色 -->
+    <color name="strength_weak">#FFFF6B00</color>      <!-- 弱 - 橙色 -->
+    <color name="strength_fair">#FFFFAA00</color>      <!-- 一般 - 黄色 -->
+    <color name="strength_good">#FF00FF88</color>      <!-- 良好 - 绿色 -->
+    <color name="strength_strong">#FF00D4FF</color>    <!-- 强 - 蓝色 -->
+    <color name="strength_very_strong">#FF9D4EDD</color> <!-- 非常强 - 紫色 -->
+    
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_dark">#CC0A0A0F</color>
+    <color name="semi_transparent_light">#33FFFFFF</color>
+</resources>
