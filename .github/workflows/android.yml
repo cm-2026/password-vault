@@ -25,16 +25,16 @@ jobs:
       with:
         gradle-version: '8.5'
         
-    - name: Make gradlew executable
-      run: chmod +x ./gradlew || echo "gradlew not found, will use gradle directly"
-      
-    - name: Build with Gradle
+    - name: Install Gradle
       run: |
-        if [ -f "./gradlew" ]; then
-          ./gradlew assembleDebug
-        else
-          gradle assembleDebug
-        fi
+        # 安装Gradle 8.5
+        wget https://services.gradle.org/distributions/gradle-8.5-bin.zip
+        sudo unzip -d /opt/gradle gradle-8.5-bin.zip
+        echo "GRADLE_HOME=/opt/gradle/gradle-8.5" >> $GITHUB_ENV
+        echo "/opt/gradle/gradle-8.5/bin" >> $GITHUB_PATH
+        
+    - name: Build with Gradle
+      run: gradle assembleDebug
         
     - name: Upload APK artifact
       uses: actions/upload-artifact@v4
